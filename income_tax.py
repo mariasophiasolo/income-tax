@@ -24,3 +24,9 @@ def calculate_income_tax(income):
         tax_payable += (income - 20000) * 20 / 100
 
     return tax_payable
+
+income = 45000
+result_tax = calculate_income_tax(income)
+
+print("The given income is - ", income)
+print("The total amount of tax to pay is - ", result_tax)
